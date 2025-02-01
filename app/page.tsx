@@ -6,6 +6,7 @@ import Cart from "@/components/cart"
 import PurchaseRequestForm from "@/components/purchaserequestform"
 import Loading from "@/components/loading"
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -23,6 +24,11 @@ export default function Home() {
       <Cart />
       <PurchaseRequestForm />
     </div>
+
+
+
   )
 }
+  
+    
 

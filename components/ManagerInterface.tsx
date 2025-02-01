@@ -1,6 +1,5 @@
-// components/ManagerInterface.tsx
 import React, { useEffect, useState } from 'react';
-import { RequestEntry } from '../types/types'; // Adjust the import path if necessary
+import { RequestEntry } from '../types/types'; 
 
 const ManagerInterface: React.FC = () => {
   const [requests, setRequests] = useState<RequestEntry[]>([]);
